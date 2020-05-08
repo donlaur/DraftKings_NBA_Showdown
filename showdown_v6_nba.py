@@ -89,9 +89,6 @@ def name_change(old, new):
 	data_dict[new] = data_dict[old] 
 	del data_dict[old] 
 
-#name_change('Robert Williams', 'Robert Williams III')
-#data_dict['Robert Williams III'][5] = 'O'
-
 nba_players = players.get_players()
 time.sleep(0.5)
 
@@ -310,14 +307,8 @@ def dancho_iter(dancho, stock):
 
 
 danchos = {
-	'Kawhi Leonard':5,
-	'Paul George':5,
-	'Gordon Hayward':5,
-	'Jayson Tatum':5
+	# str(captain name): int(number of lineups)
 }
-
-#data_dict['Enes Kanter'][4] = 15
-#data_dict['Enes Kanter'][5] = 'O'
 
 master_lineups = {}
 
