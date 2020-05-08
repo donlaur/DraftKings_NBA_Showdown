@@ -1,4 +1,4 @@
-# DraftKings_showdown
+# DraftKings_NBA_Showdown
 
 This is a lineup optimizer for the DraftKings NBA showdown games, using the DraftKings API. It basically brute solves the knapsack problem, but with players' salaries as the "weights" and their fantasy points as the "values."
 
