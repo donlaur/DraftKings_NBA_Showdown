@@ -196,7 +196,7 @@ for i in sorted_eff.keys():
 sorted_eff
 
 # ----------------------------------------------------------------------------------------------------
-# parse raw csv into digestible structure for algorithm
+# filter out fringe players
 # ----------------------------------------------------------------------------------------------------
 
 p_list = []
